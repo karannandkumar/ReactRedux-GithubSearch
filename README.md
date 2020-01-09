@@ -1,7 +1,7 @@
 Coding challenge -
 developed by Karan Nandkumar 
 
-# Steps to run Application 
+# Steps to run application 
 
 ## Install dependencies for server
 npm install
