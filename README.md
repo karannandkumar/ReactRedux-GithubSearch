@@ -23,4 +23,4 @@ npm run client
 
 
 This project is licensed under the MIT License
-React-Express starter kit (Developed by Travery Media) was bootstrap to start project.
+React-Express starter kit (Developed by Travery Media) was bootstraped to start project.
