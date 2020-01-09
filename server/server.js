@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require('dotenv').config();
 const port = 5000;
 
 app.use(express.urlencoded({ extended: true }));
@@ -16,3 +17,4 @@ app.listen(port, (err) => {
   if (err) { console.log(err); };
   console.log('Listening on port ' + port);
 });
+

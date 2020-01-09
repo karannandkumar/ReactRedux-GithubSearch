@@ -1,7 +1,8 @@
+Coding challenge - Conrad Connect 
+developed by Karan Nandkumar 
 
-## Quick Start
+# Steps to run Application 
 
-``` bash
 # Install dependencies for server
 npm install
 
@@ -22,3 +23,4 @@ npm run client
 
 
 This project is licensed under the MIT License
+React-Express starter kit (Developed by Travery Media) was bootstrap to start project.

@@ -24,7 +24,7 @@ ReactDOM.render(
           <ul className="main-nav">
             <li>
               {" "}
-              <Link to="/">Search</Link>{" "}
+              <Link to="/Search">Search</Link>{" "}
             </li>
             <li>
               {" "}
@@ -35,7 +35,7 @@ ReactDOM.render(
         </header>
 
         <Switch>
-          <Route path="/" exact>
+          <Route path="/Search" exact>
             <ErrorBoundary>
               <Search />
             </ErrorBoundary>

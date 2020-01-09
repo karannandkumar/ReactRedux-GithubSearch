@@ -4,7 +4,8 @@ module.exports = (app) => {
 
     app.get(`/Search/:value`, function (req, res) {
  
-        let url = `https://api.github.com/search/repositories?q=${req.params.value}&per_page=12`; 
+        let url = `https://api.github.com/search/repositories?q=${req.params.value}&per_page=12`;
+        console.log(url) 
         fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -29,7 +30,7 @@ module.exports = (app) => {
         console.log(bookmark)
     })
     
-    app.get('/Bookmarklist', function (req, res) {
+    app.get('/Bookmark', function (req, res) {
         res.send(bookmark)
     })
 };

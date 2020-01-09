@@ -20,8 +20,8 @@ class Search extends Component {
     this.timer = setTimeout(() => {
       this.state.search !== ""
         ? this.componentDidMount()
-        : this.setState({ blank: true });
-    }, 200);
+        : this.setState({ error: true });
+    }, 1500);
   };
 
   handleInputChange = e => {
@@ -43,6 +43,7 @@ class Search extends Component {
         });
       })
       .catch(error => {
+        console.log(error)
         this.setState({
           error: true
         });
@@ -51,8 +52,10 @@ class Search extends Component {
 
   renderItems = () => {
     if (!this.state.error) {
+    
       return this.state.repo.map(item => (
         <div>
+          
           <RepSingle key={item.id} item={item}></RepSingle>
         </div>
       ));
