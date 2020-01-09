@@ -1,4 +1,4 @@
-Coding challenge - Conrad Connect 
+Coding challenge -
 developed by Karan Nandkumar 
 
 ## Steps to run Application 
