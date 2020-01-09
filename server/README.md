@@ -1,18 +1,18 @@
 
-## Api Endpoints Endpoints
+# Api Endpoints Endpoints
 
-# Search for all repositories in GitHub
+## Search for all repositories in GitHub
 Endpoint : /Search/
 
-#List of Bookmark
+## List of Bookmark
 Endpoint : /Bookmark/
 
 
-# Item Bookmarked
+## Item Bookmarked
 Endpoint : /Bookmark/:value 
 
 
-# Item removed from Bookmark 
+## Item removed from Bookmark 
 /RemoveBookmark/:value 
 
 
