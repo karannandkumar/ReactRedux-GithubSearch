@@ -4,7 +4,7 @@
 # Search for all repositories in GitHub
 Endpoint : /Search/
 
-#See list of Bookmark
+#List of Bookmark
 Endpoint : /Bookmark/
 
 
