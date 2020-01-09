@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+* {
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat";
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2370db;
+    font-weight: bold;
+  }
+  
+
+  h2 { 
+    color: black;
+    margin: 2rem 0 .5rem;
+    font-size: 0.8rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    justify-content: space-around;
+  }
+  
+  img {
+    display: block;
+      border: 0;
+      width: 100%;
+      height: auto;
+  }
+  
+  /***************************           Cards            *******************************/
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* see notes below */
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1rem;
+    
+  }
+  
+  .card {
+    /*height: 200px;*/
+    /*background: red;*/
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+    margin:1rem;
+  } /* li item */
+  
+  .thumbnail img {
+      opacity: 0.9;
+    fill: #c7c4c4;
+    height: 190px;
+     width:190px ;
+
+  }
+  
+  .card-content {
+      font-size: .75rem;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+  }
+  
+  .panel.card-panel .panel-header {
+      background-color: #ffffff;
+      font-size: .75rem;
+      font-weight: 400;
+      height: 25px !important;
+  }
+  
+  .panel.card-panel .panel-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .category {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    border-top: 2px solid #e7e7e7;
+    margin: .5rem 0 0;
+    min-height: 30px;
+    font-size: .5rem;
+  }
+  
+  .category {
+      position: absolute;
+      top: 160px;
+      left: 0;
+      color: #fff;
+      background: #e74c3c;
+      padding: 10px 15px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  
+  .category__01 {
+    background: #2370db;
+
+  }
+  
+  .btn-book{
+    background:  #3d8fff;
+    color: white; 
+  }
+  .btn-book:hover{
+    background: #2370db;
+    color: white; 
+  }
+  .btn-booked{
+    background: #00c767;
+    color: white; 
+  }
+  
+  
+  .post-meta {
+    margin-top: .5rem;
+  }
+  
+  .comments {
+    margin-left: .5rem;
+  }
+  .name {
+    color: green;
+    margin: 2rem 0 .5rem;
+    font-size: 0.8rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    justify-content: space-around;
+  }

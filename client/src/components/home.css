@@ -1,0 +1,91 @@
+ul {
+  padding:0;
+  list-style:none;
+  width: 30%;
+  margin:auto;
+}
+
+li{
+  font-size:1.2rem;
+  line-height: 2rem;
+
+}
+.App {
+  text-align: center;
+}
+
+.search::placeholder{
+color:white;
+}
+.search:focus::placeholder{
+  color:white;
+}
+.searching {
+  background: transparent;
+  padding: 2em;
+  margin: 0 auto;
+  font-size: 1.2em;
+ 
+}
+
+
+.search {
+  border: none;
+  width: 85%;
+  border-radius: 5px 5px 5px 5px;
+	background: #3d8fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0.35em 0.75em;
+	border: none;
+	font-size: 1.1em;
+	text-decoration: none;
+	line-height: normal;
+	max-height: 3em;
+  
+  flex: 2 0 250px;
+}
+
+.search:focus {
+  background: #2370db;
+  color: white;
+  letter-spacing: .1em;
+  transition: background 400ms ease-in-out;
+  outline: none;
+}
+h1{
+  text-align: center;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+  }
