@@ -1,5 +1,5 @@
 
-# Api Endpoints Endpoints
+# Api Endpoints
 
 ## Search for all repositories in GitHub
 Endpoint : /Search/
