@@ -24,11 +24,11 @@ ReactDOM.render(
           <ul className="main-nav">
             <li>
               {" "}
-              <Link to="/">Search </Link>{" "}
+              <Link to="/">Search</Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/Bookmark">My Bookmarks</Link>{" "}
+              <Link to="/Bookmark">Bookmarks</Link>{" "}
             </li>
           </ul>
           <p>Karan Nandkumar</p>
